@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: demo-app2
+  name: demo-appxyz
   labels:
-    app: demo-app2
+    app: demo-appxyz
 spec:
   type: ClusterIP
   ports:
@@ -12,4 +12,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: demo-app2
+    app: demo-appxyz
