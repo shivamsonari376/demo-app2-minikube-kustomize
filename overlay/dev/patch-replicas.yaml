@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-app2
+  name: demo-appxyz
 spec:
   replicas: 2
