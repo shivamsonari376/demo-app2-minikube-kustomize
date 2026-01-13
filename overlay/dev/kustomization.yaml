@@ -1,4 +1,4 @@
 resources:
-  - ../../base
+  - github.com/shivamsonari376/demo-app2-minikube-kustomize.git//base?ref=HEAD
 patchesStrategicMerge:
   - patch-replicas.yaml
